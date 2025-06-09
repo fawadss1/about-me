@@ -1,625 +1,280 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en" class="no-js">
 <head>
-	<title> Fawad Portfolio </title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-	<link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
-	<link rel="stylesheet" href="css/animate.css">
-	<link rel="stylesheet" href="css/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/owl.theme.default.min.css">
-	<link rel="stylesheet" href="css/magnific-popup.css">
-	<link rel="stylesheet" href="css/aos.css">
-	<link rel="stylesheet" href="css/ionicons.min.css">
-	<link rel="stylesheet" href="css/flaticon.css">
-	<link rel="stylesheet" href="css/icomoon.css">
-	<link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fawad Ali - Python Django/DRF Developer Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <!-- Google Fonts: Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
+<body class="bg-dark-custom text-light-custom">
 
-<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
-	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
-		<div class="container">
-			<a class="navbar-brand" href="index.html"><span>F</span>awad Ali</a>
-			<button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse"
-				data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="oi oi-menu"></span> Menu
-			</button>
-			<div class="collapse navbar-collapse" id="ftco-nav">
-				<ul class="navbar-nav nav ml-auto">
-					<li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
-					<li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
-					<li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
-					<li class="nav-item"><a href="#services-section" class="nav-link"><span>Services</span></a></li>
-					<li class="nav-item"><a href="#projects-section" class="nav-link"><span>Projects</span></a></li>
-					<li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
-				</ul>
-			</div>
-		</div>
-	</nav>
-	<section class="hero-wrap js-fullheight">
-		<div class="overlay"></div>
-		<div class="container">
-			<div class="row no-gutters slider-text js-fullheight justify-content-center align-items-center">
-				<div class="col-lg-8 col-md-6 ftco-animate d-flex align-items-center">
-					<div class="text text-center">
-						<span class="subheading">Hey! My Self</span>
-						<h1>Fawad Ali</h1>
-						<h2>I'm a <span class="txt-rotate" data-period="2000"
-								data-rotate='[ "Software Engineer.", " Python Developer.", " Full Stack Engineer.", "Web Scrapper"]'></span>
-						</h2>
-					</div>
-				</div>
-			</div>
-		</div>
-		</div>
-		<div class="mouse">
-			<a href="#" class="mouse-icon">
-				<div class="mouse-wheel"><span class="ion-ios-arrow-round-down"></span></div>
-			</a>
-		</div>
-	</section>
+    <nav class="navbar navbar-expand-md navbar-dark navbar-custom shadow-lg fixed-top">
+        <div class="container px-4 py-3">
+            <a class="navbar-brand fs-4 fw-bold" href="#">FAWAD ALI</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link px-3 py-2 rounded-3" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-3 py-2 rounded-3" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-3 py-2 rounded-3" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-3 py-2 rounded-3" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-3 py-2 rounded-3" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-	<section class="ftco-about img ftco-section ftco-no-pt ftco-no-pb" id="about-section">
-		<div class="container">
-			<div class="row d-flex no-gutters">
-				<div class="col-md-6 col-lg-6 d-flex">
-					<div class="img-about img d-flex align-items-stretch">
-						<div class="overlay"></div>
-						<div class="img d-flex align-self-stretch align-items-center"
-							style="background-image:url(images/DP.png);">
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6 col-lg-6 pl-md-5 py-5">
-					<div class="row justify-content-start pb-3">
-						<div class="col-md-12 heading-section ftco-animate">
-							<h1 class="big">About</h1>
-							<h2 class="mb-4">About Me</h2>
-							<p>One of my most productive days was throwing away 1000 lines of code.</p>
-							<ul class="about-info mt-4 px-md-0 px-2">
-								<li class="d-flex"><span>Name:</span> <span>Fawad Ali</span></li>
-								<li class="d-flex"><span>Date of birth:</span> <span>February 16, 2000</span></li>
-								<li class="d-flex"><span>Address:</span> <span>Kabal Swat KPK Pak</span></li>
-								<li class="d-flex"><span>Zip code:</span> <span>19071</span></li>
-								<li class="d-flex"><span>Email:</span> <span>fawadstar6@gmail.com</span></li>
-								<li class="d-flex"><span>Phone: </span> <span>+92-341-8357982</span></li>
-							</ul>
-						</div>
-					</div>
-					<div class="counter-wrap ftco-animate d-flex mt-md-3">
-						<div class="text">
-							<p class="mb-4">
-								<span class="number" data-number="25">0</span>
-								<span>Projects complete</span>
-							</p>
-							<p><a href="https://bit.ly/3Z13F3x" target="blank" class="btn btn-primary py-3 px-3">Download Resume</a></p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+    <section id="home" class="bg-gradient-home text-light-custom min-vh-100 d-flex align-items-center justify-content-center pt-5 pt-md-0">
+        <div class="container px-4 text-center animate-fade-in-up">
+            <img src="images/DP.png" alt="Fawad Ali Profile Picture" class="img-fluid rounded-circle shadow-lg mb-4 border border-4 border-gray-700-custom" style="width: 150px; height: 150px;">
+            <h1 class="display-3 fw-bold mb-3 text-light-custom">Hi, I'm <span class="text-primary-custom rotate-on-hover">Fawad Ali</span></h1>
+            <p class="lead mb-5 mx-auto text-gray-300-custom" style="max-width: 48rem;">I'm a passionate <span class="text-secondary-custom">Python Django/DRF Developer</span> specializing in building scalable web applications and efficient web scraping solutions.</p>
+            <div class="d-flex justify-content-center gap-3 flex-wrap">
+                <a href="#projects" class="btn btn-secondary-custom btn-lg">View My Work</a>
+                <a href="#contact" class="btn btn-outline-light-custom btn-lg">Get In Touch</a>
+            </div>
+        </div>
+    </section>
 
-	<section class="ftco-section ftco-no-pb goto-here" id="resume-section">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-3">
-					<nav id="navi">
-						<ul>
-							<li><a href="#page-1">Education</a></li>
-							<li><a href="#page-2">Wrok Experience</a></li>
-							<li><a href="#page-3">Developed Skills</a></li>
-							<li><a href="#page-4">Cerifications & Awards</a></li>
-						</ul>
-					</nav>
-				</div>
-				<div class="col-md-9">
-					<div id="page-1" class="page one">
-						<h2 class="heading">Education</h2>
-						<div class="resume-wrap d-flex ftco-animate">
-							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="flaticon-ideas"></span>
-							</div>
-							<div class="text pl-3">
-								<span class="date">2019-2023</span>
-								<h2>Bachelor of Science in Information Technology</h2>
-								<span class="position">The Institute of Computer Science and Information Technology
-									(AUP)</span>
-							</div>
-						</div>
-					</div>
+    <section id="about" class="py-5 py-md-5 bg-gray-900-custom border-top border-gray-700-custom">
+        <div class="container px-4">
+            <h2 class="section-title h2 fw-bold text-center mb-5 text-light-custom animate-on-scroll" style="transform: translateY(20px);">About</h2>
+            <div class="row align-items-center g-5">
+                <div class="col-md-4 animate-on-scroll" style="transform: translateX(-20px);">
+                    <img src="https://placehold.co/400x400/1C2128/7DD3FC?text=About" alt="About Me Image" class="img-fluid rounded-3 shadow-lg border border-4 border-gray-700-custom">
+                </div>
+                <div class="col-md-8 animate-on-scroll" style="transform: translateX(20px);">
+                    <p class="fs-5 text-gray-300-custom mb-4 lh-base">
+                        Hello! I'm <span class="text-primary-custom">Fawad Ali</span>, a dedicated and results-oriented <span class="text-secondary-custom">Python Django/DRF Developer</span> with a strong background in <span class="text-primary-custom">web development, building robust RESTful APIs, and efficient web scraping using Scrapy</span>. I thrive on solving complex problems and turning ideas into reality.
+                    </p>
+                    <p class="fs-5 text-gray-300-custom mb-4 lh-base">
+                        Over the past <span class="text-secondary-custom">4+</span> years, I've had the privilege of working on diverse projects, ranging from <span class="text-primary-custom">scalable backend systems and SaaS platforms</span> to <span class="text-primary-custom">data scraping solutions and management systems</span>. My approach is always user-centric, focusing on creating intuitive and impactful solutions.
+                    </p>
+                    <p class="fs-5 text-gray-300-custom lh-base">
+                        When I'm not coding or designing, you can find me <span class="text-secondary-custom">playing Badminton</span>, <span class="text-secondary-custom">motivational speaking</span>, or <span class="text-secondary-custom">learning new technologies</span>. I'm always eager to learn and grow, both personally and professionally.
+                    </p>
+                    <a href="https://drive.google.com/file/d/1zqe2O5TffE07TH0GyuorBMIozq09Dl1c/view?pli=1" target="_blank" download class="btn btn-primary-custom mt-4">
+                        <i class="fas fa-download me-2"></i> Download Resume
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-					<div id="page-2" class="page two">
-						<h2 class="heading">Work Experience</h2>
-						<div class="resume-wrap d-flex ftco-animate">
-							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="flaticon-ideas"></span>
-							</div>
-							<div class="text pl-3">
-								<span class="date">Sep 2020 - Jun 2022</span>
-								<h2>Django Developer</h2>
-								<span class="position">CORELINKS IT Company Peshawar</span>
-							</div>
-						</div>
+    <section id="projects" class="py-5 py-md-5 bg-dark-custom border-top border-gray-700-custom">
+        <div class="container px-4">
+            <h2 class="section-title h2 fw-bold text-center mb-5 text-light-custom animate-on-scroll" style="transform: translateY(20px);">My Projects</h2>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <div class="col animate-on-scroll" style="transform: translateY(20px);">
+                    <div class="card card-custom h-100">
+                        <img src="images/askpablos.png" class="card-img-top" alt="SaaS Product Management Platform Thumbnail" style="height: 224px; object-fit: cover;">
+                        <div class="card-body p-4 d-flex flex-column">
+                            <h3 class="card-title fs-4 fw-semibold mb-2">SaaS-Based Product Management Platform</h3>
+                            <p class="card-text mb-4 small lh-base">Developed a Django-based SaaS platform to process and manage 50 million products, including categories and manufacturers management. Enabled real-time insights, efficient data management, and automated publishing/synchronizing of products to external sites. Integrated Zyte for crawling data.</p>
+                            <div class="d-flex flex-wrap gap-2 mb-4 mt-auto">
+                                <span class="badge badge-tech badge-blue-custom">Django</span>
+                                <span class="badge badge-tech badge-green-custom">Python</span>
+                                <span class="badge badge-tech badge-yellow-custom">Zyte</span>
+                                <span class="badge badge-tech badge-purple-custom">PostgreSQL</span>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a href="https://askpablos.com" target="_blank" class="card-link fw-medium text-decoration-none">Live Demo <i class="fas fa-arrow-right ms-1"></i></a>
+                                <a href="#" target="_blank" class="card-link-secondary fw-medium text-decoration-none">GitHub <i class="fab fa-github ms-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-						<div class="resume-wrap d-flex ftco-animate">
-							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="flaticon-ideas"></span>
-							</div>
-							<div class="text pl-3">
-								<span class="date">Sep 2023 - Present</span>
-								<h2>Python Developer</h2>
-								<span class="position">SuvastuTech Ltd Swat (Enrgtech Ltd)</span>
-							</div>
-						</div>
+                <div class="col animate-on-scroll" style="transform: translateY(20px); transition-delay: 0.1s;">
+                    <div class="card card-custom h-100">
+                        <img src="images/pfsms.png" class="card-img-top" alt="Petrol Pump Management System Thumbnail" style="height: 224px; object-fit: cover;">
+                        <div class="card-body p-4 d-flex flex-column">
+                            <h3 class="card-title fs-4 fw-semibold mb-2">Petrol Pump Management System</h3>
+                            <p class="card-text mb-4 small lh-base">Developed a Petrol Pump Management System using Python, Django, Bootstrap, Ajax, jQuery, and JavaScript. Features include sending emails for login alerts, password resets, and summary added alerts. Currently operational at multiple petrol pumps.</p>
+                           <div class="d-flex flex-wrap gap-2 mb-4 mt-auto">
+                                <span class="badge badge-tech badge-red-custom">Python</span>
+                                <span class="badge badge-tech badge-orange-custom">Django</span>
+                                <span class="badge badge-tech badge-teal-custom">Bootstrap</span>
+                                <span class="badge badge-tech badge-blue-custom">jQuery</span>
+                                <span class="badge badge-tech badge-green-custom">JavaScript</span>
+                                <span class="badge badge-tech badge-yellow-custom">Ajax</span>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a href="https://pfsms.up.railway.app" target="_blank" class="card-link fw-medium text-decoration-none">Live Demo <i class="fas fa-arrow-right ms-1"></i></a>
+                                <a href="#" target="_blank" class="card-link-secondary fw-medium text-decoration-none">GitHub <i class="fab fa-github ms-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-					</div>
-					<div id="page-3" class="page three">
-						<h2 class="heading">Skills</h2>
-						<div class="row">
-							<div class="col-md-6 animate-box">
-								<div class="progress-wrap ftco-animate">
-									<h3>Python</h3>
-									<div class="progress">
-										<div class="progress-bar color-2" role="progressbar" aria-valuenow="80"
-											aria-valuemin="0" aria-valuemax="100" style="width:80%">
-											<span>80%</span>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-6 animate-box">
-								<div class="progress-wrap ftco-animate">
-									<h3>Django (Rest FrameWork)</h3>
-									<div class="progress">
-										<div class="progress-bar color-2" role="progressbar" aria-valuenow="95"
-											aria-valuemin="0" aria-valuemax="100" style="width:95%">
-											<span>95%</span>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-6 animate-box">
-								<div class="progress-wrap ftco-animate">
-									<h3>Async Programming (Python)</h3>
-									<div class="progress">
-										<div class="progress-bar color-2" role="progressbar" aria-valuenow="100"
-											aria-valuemin="0" aria-valuemax="100" style="width:100%">
-											<span>100%</span>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-6 animate-box">
-								<div class="progress-wrap ftco-animate">
-									<h3>Web Scrapping</h3>
-									<div class="progress">
-										<div class="progress-bar color-2" role="progressbar" aria-valuenow="90"
-											aria-valuemin="0" aria-valuemax="100" style="width:90%">
-											<span>90%</span>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-6 animate-box">
-								<div class="progress-wrap ftco-animate">
-									<h3>Java Script</h3>
-									<div class="progress">
-										<div class="progress-bar color-2" role="progressbar" aria-valuenow="60"
-											aria-valuemin="0" aria-valuemax="100" style="width:60%">
-											<span>60%</span>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-6 animate-box">
-								<div class="progress-wrap ftco-animate">
-									<h3>jQuery</h3>
-									<div class="progress">
-										<div class="progress-bar color-2" role="progressbar" aria-valuenow="85"
-											aria-valuemin="0" aria-valuemax="100" style="width:85%">
-											<span>85%</span>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-6 animate-box">
-								<div class="progress-wrap ftco-animate">
-									<h3>React.js</h3>
-									<div class="progress">
-										<div class="progress-bar color-2" role="progressbar" aria-valuenow="50"
-											aria-valuemin="0" aria-valuemax="100" style="width:50%">
-											<span>50%</span>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-6 animate-box">
-								<div class="progress-wrap ftco-animate">
-									<h3>HTML5</h3>
-									<div class="progress">
-										<div class="progress-bar color-3" role="progressbar" aria-valuenow="95"
-											aria-valuemin="0" aria-valuemax="100" style="width:95%">
-											<span>95%</span>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-6 animate-box">
-								<div class="progress-wrap ftco-animate">
-									<h3>CSS3</h3>
-									<div class="progress">
-										<div class="progress-bar color-4" role="progressbar" aria-valuenow="90"
-											aria-valuemin="0" aria-valuemax="100" style="width:90%">
-											<span>90%</span>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-6 animate-box">
-								<div class="progress-wrap ftco-animate">
-									<h3>Bootstrap</h3>
-									<div class="progress">
-										<div class="progress-bar color-2" role="progressbar" aria-valuenow="100"
-											aria-valuemin="0" aria-valuemax="100" style="width:100%">
-											<span>100%</span>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div id="page-4" class="page four">
-						<h2 class="heading">Certifications & Awards</h2>
-						<div class="resume-wrap d-flex ftco-animate">
-							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="flaticon-ideas"></span>
-							</div>
-							<div class="text pl-3">
-								<span class="date">2020</span>
-								<h2>Certificate for Completion of the Python 3 course</h2>
-								<span class="position">Solo Learn</span>
-							</div>
-						</div>
-						<div class="resume-wrap d-flex ftco-animate">
-							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="flaticon-ideas"></span>
-							</div>
-							<div class="text pl-3">
-								<span class="date">2020</span>
-								<h2><a href="https://courses.cognitiveclass.ai/certificates/e48024d9d2b64722974df6ab1db7e5cf"
-										target="_blank">Certificate of ML with Python</a></h2>
-								<span class="position">IBM Developer Skills Network</span>
-							</div>
-						</div>
-						<div class="resume-wrap d-flex ftco-animate">
-							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="flaticon-ideas"></span>
-							</div>
-							<div class="text pl-3">
-								<span class="date">2020</span>
-								<h2><a href="https://courses.cognitiveclass.ai/certificates/b33dd411c53845ee950fab9dc9c1ed59"
-										target="_blank">Certificate of Python 101 For DS</a></h2>
-								<span class="position">IBM Developer Skills Network</span>
-							</div>
-						</div>
-						<div class="resume-wrap d-flex ftco-animate">
-							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="flaticon-ideas"></span>
-							</div>
-							<div class="text pl-3">
-								<span class="date">2021</span>
-								<h2><a href="https://www.bitdegree.org/certificates/15d93ac2-7a97-4f25-a6d9-67737e6ca8c5"
-										target="_blank">Certificate Django Deployment on Digital Ocean</a></h2>
-								<span class="position">BitDegree</span>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+                <div class="col animate-on-scroll" style="transform: translateY(20px); transition-delay: 0.2s;">
+                    <div class="card card-custom h-100">
+                        <img src="images/AupRenewalPortal.png" class="card-img-top" alt="AUP Renewal Portal Thumbnail" style="height: 224px; object-fit: cover;">
+                        <div class="card-body p-4 d-flex flex-column">
+                            <h3 class="card-title fs-4 fw-semibold mb-2">AUP Renewal Portal</h3>
+                            <p class="card-text mb-4 small lh-base">Developed a Semester Fee Renewal Portal for the students of ICS/IT of AUP using Django REST Framework for the backend and Bootstrap 5 for the frontend. This portal streamlines the fee renewal process for students.</p>
+                            <div class="d-flex flex-wrap gap-2 mb-4 mt-auto">
+                                <span class="badge badge-tech badge-red-custom">Django REST Framework</span>
+                                <span class="badge badge-tech badge-orange-custom">Python</span>
+                                <span class="badge badge-tech badge-teal-custom">Bootstrap 5</span>
+                                <span class="badge badge-tech badge-blue-custom">API Design</span>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a href="https://auprenewalportal.up.railway.app" target="_blank" class="card-link fw-medium text-decoration-none">Live Demo <i class="fas fa-arrow-right ms-1"></i></a>
+                                <a href="#" target="_blank" class="card-link-secondary fw-medium text-decoration-none">GitHub <i class="fab fa-github ms-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-	<section class="ftco-section" id="services-section">
-		<div class="container-fluid px-md-5">
-			<div class="row justify-content-center py-5 mt-5">
-				<div class="col-md-12 heading-section text-center ftco-animate">
-					<h1 class="big big-2">Services</h1>
-					<h2 class="mb-4">Services</h2>
-					<p>One of my most productive days was throwing away 1000 lines of code.</p>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-4 text-center d-flex ftco-animate">
-					<a class="services-1 shadow">
-						<span class="icon">
-							<i class="flaticon-innovation"></i>
-						</span>
-						<div class="desc">
-							<h3 class="mb-5">Software Engineer</h3>
-							<p>I have much knowledge about Software Engineering Concepts like Agile Methodologies,
-								Scrum, and Jira and Version Controlling Systems Git/Github.</p>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-4 text-center d-flex ftco-animate">
-					<a class="services-1 shadow">
-						<span class="icon">
-							<i class="flaticon-ux-design"></i>
-						</span>
-						<div class="desc">
-							<h3 class="mb-5">Python Developer</h3>
-							<p>I have 3 years plus experience in python Specially in Web Scraping and Developing New API
-								using Django REST Framework(DRF).</p>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-4 text-center d-flex ftco-animate">
-					<a class="services-1 shadow">
-						<span class="icon">
-							<i class="flaticon-web-design"></i>
-						</span>
-						<div class="desc">
-							<h3 class="mb-5">Full Stack Engineer</h3>
-							<p>I have much knowledge in Modern Web Technologies like html, Css, Java script, Jquery,
-								Ajax, framework like bootstrap, React.js, Django, Flask, FastAPI, (Restfull API Development).</p>
-						</div>
-					</a>
-				</div>
-			</div>
-		</div>
-	</section>
+            </div>
+        </div>
+    </section>
 
-	<section class="ftco-section ftco-project" id="projects-section">
-		<div class="container-fluid px-md-0">
-			<div class="row no-gutters justify-content-center pb-5">
-				<div class="col-md-12 heading-section text-center ftco-animate">
-					<h1 class="big big-2">Projects</h1>
-					<h2 class="mb-4">Projects</h2>
-					<p>I have Developed more then 25 projects by using Python, Django and DRF on Customer Demand</p>
-				</div>
-			</div>
-			<div class="row no-gutters">
-				<div class="col-md-5 mx-4 my-3 border border-dark">
-					<div class="project img ftco-animate d-flex justify-content-center align-items-center"
-						style="background-image: url(images/pfsms.png);">
-						<div class="overlay"></div>
-						<div class="text text-center p-4">
-							<h3><a href="https://github.com/fawadss1/PFSMS" target="_blank">Professional Fuel Station
-									Management System</a></h3>
-							<span>Django Rest Framework</span>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-5 mx-4 my-3 border border-dark">
-					<div class="project img ftco-animate d-flex justify-content-center align-items-center"
-						style="background-image: url(images/uso.png);">
-						<div class="overlay"></div>
-						<div class="text text-center p-4">
-							<h3><a href="https://github.com/fawadss1/UjalaSahar" target="_blank">Ujala Sahar.Org</a>
-							</h3>
-							<span>Django</span>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-5 mx-4 my-3 border border-dark">
-					<div class="project img ftco-animate d-flex justify-content-center align-items-center"
-						style="background-image: url(images/AupRenewalPortal.png);">
-						<div class="overlay"></div>
-						<div class="text text-center p-4">
-							<h3><a href="https://github.com/fawadss1/Aup_Renewal_Portal" target="_blank">AUP Renewal
-									Portal</a>
-							</h3>
-							<span>Django</span>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-5 mx-4 my-3 border border-dark">
-					<div class="project img ftco-animate d-flex justify-content-center align-items-center"
-						style="background-image: url(images/weatherForcastingApp.png);">
-						<div class="overlay"></div>
-						<div class="text text-center p-4">
-							<h3><a href="https://github.com/fawadss1/Weather_Forecast" target="_blank">Weather
-									Forcasting App</a>
-							</h3>
-							<span>Django (Web Scrapping)</span>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+    <section id="skills" class="py-5 py-md-5 bg-gray-900-custom border-top border-gray-700-custom">
+        <div class="container px-4">
+            <h2 class="section-title h2 fw-bold text-center mb-5 text-light-custom animate-on-scroll" style="transform: translateY(20px);">My Skills</h2>
+            <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 g-4 text-center">
+                <div class="col animate-on-scroll" style="transform: translateY(20px);">
+                    <div class="card card-custom h-100 d-flex flex-column justify-content-center align-items-center p-4">
+                        <img src="https://placehold.co/64x64/8B5CF6/FFFFFF?text=Py" alt="Python Icon" class="img-fluid mb-3 filter-invert-light-text" style="width: 64px; height: 64px;">
+                        <h3 class="fs-5 fw-semibold text-light-custom">Python</h3>
+                    </div>
+                </div>
+                <div class="col animate-on-scroll" style="transform: translateY(20px); transition-delay: 0.05s;">
+                    <div class="card card-custom h-100 d-flex flex-column justify-content-center align-items-center p-4">
+                        <img src="https://placehold.co/64x64/047857/A7F3D0?text=Django" alt="Django Icon" class="img-fluid mb-3 filter-invert-light-text" style="width: 64px; height: 64px;">
+                        <h3 class="fs-5 fw-semibold text-light-custom">Django & DRF</h3>
+                    </div>
+                </div>
+                <div class="col animate-on-scroll" style="transform: translateY(20px); transition-delay: 0.1s;">
+                    <div class="card card-custom h-100 d-flex flex-column justify-content-center align-items-center p-4">
+                        <img src="https://placehold.co/64x64/0C4A6E/BAE6FD?text=Scrapy" alt="Scrapy Icon" class="img-fluid mb-3 filter-invert-light-text" style="width: 64px; height: 64px;">
+                        <h3 class="fs-5 fw-semibold text-light-custom">Scrapy & Web Scraping</h3>
+                    </div>
+                </div>
+                <div class="col animate-on-scroll" style="transform: translateY(20px); transition-delay: 0.15s;">
+                    <div class="card card-custom h-100 d-flex flex-column justify-content-center align-items-center p-4">
+                        <img src="https://placehold.co/64x64/4285F4/FFFFFF?text=Postgre" alt="PostgreSQL Icon" class="img-fluid mb-3 filter-invert-light-text" style="width: 64px; height: 64px;">
+                        <h3 class="fs-5 fw-semibold text-light-custom">PostgreSQL & SQL</h3>
+                    </div>
+                </div>
+                <div class="col animate-on-scroll" style="transform: translateY(20px); transition-delay: 0.2s;">
+                    <div class="card card-custom h-100 d-flex flex-column justify-content-center align-items-center p-4">
+                        <img src="https://placehold.co/64x64/FACC15/78350F?text=JS/JQ" alt="JavaScript & jQuery Icon" class="img-fluid mb-3 filter-invert-light-text" style="width: 64px; height: 64px;">
+                        <h3 class="fs-5 fw-semibold text-light-custom">JavaScript & jQuery</h3>
+                    </div>
+                </div>
+                <div class="col animate-on-scroll" style="transform: translateY(20px); transition-delay: 0.25s;">
+                    <div class="card card-custom h-100 d-flex flex-column justify-content-center align-items-center p-4">
+                        <img src="https://placehold.co/64x64/000000/FFFFFF?text=API/WS" alt="API & WebSockets Icon" class="img-fluid mb-3 filter-invert-light-text" style="width: 64px; height: 64px;">
+                        <h3 class="fs-5 fw-semibold text-light-custom">REST APIs & WebSockets</h3>
+                    </div>
+                </div>
+                <div class="col animate-on-scroll" style="transform: translateY(20px); transition-delay: 0.3s;">
+                    <div class="card card-custom h-100 d-flex flex-column justify-content-center align-items-center p-4">
+                        <img src="https://placehold.co/64x64/F59E0B/FFFFFF?text=AWS" alt="AWS Icon" class="img-fluid mb-3 filter-invert-light-text" style="width: 64px; height: 64px;">
+                        <h3 class="fs-5 fw-semibold text-light-custom">AWS Cloud</h3>
+                    </div>
+                </div>
+                <div class="col animate-on-scroll" style="transform: translateY(20px); transition-delay: 0.35s;">
+                    <div class="card card-custom h-100 d-flex flex-column justify-content-center align-items-center p-4">
+                        <img src="https://placehold.co/64x64/444C56/E6EDF3?text=Config" alt="Server Configuration Icon" class="img-fluid mb-3 filter-invert-light-text" style="width: 64px; height: 64px;">
+                        <h3 class="fs-5 fw-semibold text-light-custom">Server Configuration</h3>
+                    </div>
+                </div>
+                <div class="col animate-on-scroll" style="transform: translateY(20px); transition-delay: 0.4s;">
+                    <div class="card card-custom h-100 d-flex flex-column justify-content-center align-items-center p-4">
+                        <img src="https://placehold.co/64x64/1D4ED8/DBEAFE?text=Linux" alt="Linux Icon" class="img-fluid mb-3 filter-invert-light-text" style="width: 64px; height: 64px;">
+                        <h3 class="fs-5 fw-semibold text-light-custom">Linux</h3>
+                    </div>
+                </div>
+                <div class="col animate-on-scroll" style="transform: translateY(20px); transition-delay: 0.45s;">
+                    <div class="card card-custom h-100 d-flex flex-column justify-content-center align-items-center p-4">
+                        <img src="https://placehold.co/64x64/22C55E/FFFFFF?text=Git" alt="Git & GitHub Icon" class="img-fluid mb-3 filter-invert-light-text" style="width: 64px; height: 64px;">
+                        <h3 class="fs-5 fw-semibold text-light-custom">Git & GitHub</h3>
+                    </div>
+                </div>
+                <div class="col animate-on-scroll" style="transform: translateY(20px); transition-delay: 0.5s;">
+                    <div class="card card-custom h-100 d-flex flex-column justify-content-center align-items-center p-4">
+                        <img src="https://placehold.co/64x64/6D28D9/E9D5FF?text=Zyte" alt="Zyte Services Icon" class="img-fluid mb-3 filter-invert-light-text" style="width: 64px; height: 64px;">
+                        <h3 class="fs-5 fw-semibold text-light-custom">Zyte Services</h3>
+                    </div>
+                </div>
+                <div class="col animate-on-scroll" style="transform: translateY(20px); transition-delay: 0.55s;">
+                    <div class="card card-custom h-100 d-flex flex-column justify-content-center align-items-center p-4">
+                        <img src="https://placehold.co/64x64/EF4444/FFFFFF?text=PM" alt="Project Management Icon" class="img-fluid mb-3 filter-invert-light-text" style="width: 64px; height: 64px;">
+                        <h3 class="fs-5 fw-semibold text-light-custom">Project Management</h3>
+                    </div>
+                </div>
+                <div class="col animate-on-scroll" style="transform: translateY(20px); transition-delay: 0.6s;">
+                    <div class="card card-custom h-100 d-flex flex-column justify-content-center align-items-center p-4">
+                        <img src="https://placehold.co/64x64/9B2C2C/FFFFFF?text=Flask" alt="Flask & FastAPI Icon" class="img-fluid mb-3 filter-invert-light-text" style="width: 64px; height: 64px;">
+                        <h3 class="fs-5 fw-semibold text-light-custom">Flask & FastAPI</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-	<section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter">
-		<div class="container-fluid px-md-5">
-			<div class="row d-md-flex align-items-center">
-				<div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
-					<div class="block-18 shadow">
-						<div class="text">
-							<strong class="number" data-number="10">0</strong>
-							<span>Awards & Certifications</span>
-						</div>
-					</div>
-				</div>
-				<div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
-					<div class="block-18 shadow">
-						<div class="text">
-							<strong class="number" data-number="25">0</strong>
-							<span>Complete Projects</span>
-						</div>
-					</div>
-				</div>
-				<div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
-					<div class="block-18 shadow">
-						<div class="text">
-							<strong class="number" data-number="5">0</strong>
-							<span>Happy Customers</span>
-						</div>
-					</div>
-				</div>
-				<div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
-					<div class="block-18 shadow">
-						<div class="text">
-							<strong class="number" data-number="5000">0</strong>
-							<span>Plus Lines of Code</span>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+    <section id="contact" class="py-5 py-md-5 bg-gradient-contact text-light-custom border-top border-gray-700-custom">
+        <div class="container px-4">
+            <h2 class="section-title h2 fw-bold text-center mb-5 text-light-custom animate-on-scroll" style="transform: translateY(20px);">Connect With Me</h2>
+            <div class="mx-auto card card-custom p-4 p-md-5 text-center animate-on-scroll" style="max-width: 48rem; transform: translateY(20px); transition-delay: 0.1s;">
+                <p class="fs-5 mb-4 text-gray-300-custom">
+                    I'm always excited to discuss new projects, creative ideas, or opportunities to collaborate. Feel free to connect with me on my social platforms or view my resume!
+                </p>
+                <div class="d-flex justify-content-center gap-4 flex-wrap my-4">
+                    <a href="https://github.com/fawadss1" target="_blank" class="social-icon-wrapper">
+                        <i class="fab fa-github"></i>
+                        <span class="social-text">GitHub</span>
+                    </a>
+                    <a href="https://pk.linkedin.com/in/fawadss1" target="_blank" class="social-icon-wrapper">
+                        <i class="fab fa-linkedin"></i>
+                        <span class="social-text">LinkedIn</span>
+                    </a>
+                    <a href="#" target="_blank" class="social-icon-wrapper">
+                       <i class="fab fa-twitter"></i>
+                       <span class="social-text">Twitter/X</span>
+                    </a>
+                    <a href="#" target="_blank" class="social-icon-wrapper">
+                       <i class="fab fa-stack-overflow"></i>
+                       <span class="social-text">Stack Overflow</span>
+                    </a>
+                </div>
+                <a href="mailto:fawadstar6@gmail.com" target="_blank" class="btn btn-primary-custom mt-3">
+                    <i class="fas fa-file-alt me-2"></i> fawadstar6@gmail.com
+                </a>
+            </div>
+        </div>
+    </section>
 
-	<section class="ftco-section ftco-hireme img" style="background-image: url(images/bg.jpg)">
-		<div class="overlay"></div>
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-md-7 ftco-animate text-center">
-					<h2>I'm <span>Available</span> for freelancing</h2>
-					<p>One of my most productive days was throwing away 10000 lines of code.</p>
-					<p class="mb-0"><a href="mailto:fawadstar6@gmail.com" class="btn btn-primary py-3 px-5">Hire me</a>
-					</p>
-				</div>
-			</div>
-		</div>
-	</section>
+    <footer class="bg-gray-900-custom text-gray-400 py-4 text-center border-top border-gray-700-custom">
+        <div class="container px-4">
+            <p class="small mb-1">&copy; <span id="currentYear"></span> Fawad Ali. All rights reserved.</p>
+        </div>
+    </footer>
 
-	<section class="ftco-section contact-section ftco-no-pb" id="contact-section">
-		<div class="container">
-			<div class="row justify-content-center mb-5 pb-3">
-				<div class="col-md-7 heading-section text-center ftco-animate">
-					<h1 class="big big-2">Contact</h1>
-					<h2 class="mb-4">Contact Me</h2>
-					<p>One of my most productive days was throwing away 10000 lines of code.</p>
-				</div>
-			</div>
-
-			<div class="row d-flex contact-info mb-5">
-				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
-					<div class="align-self-stretch box text-center p-4 shadow">
-						<div class="icon d-flex align-items-center justify-content-center">
-							<span class="icon-map-signs"></span>
-						</div>
-						<div>
-							<h3 class="mb-4">Address</h3>
-							<p>Kabal Swat KPK Pak</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
-					<div class="align-self-stretch box text-center p-4 shadow">
-						<div class="icon d-flex align-items-center justify-content-center">
-							<span class="icon-phone2"></span>
-						</div>
-						<div>
-							<h3 class="mb-4">Contact Number</h3>
-							<p><a href="https://wa.me//03418357982" target="_blank">+92-341-8357982</a></p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
-					<div class="align-self-stretch box text-center p-4 shadow">
-						<div class="icon d-flex align-items-center justify-content-center">
-							<span class="icon-paper-plane"></span>
-						</div>
-						<div>
-							<h3 class="mb-4">Email Address</h3>
-							<p><a href="mailto:fawadstar6@gmail.com">fawadstar6@gmail.com</a></p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
-					<div class="align-self-stretch box text-center p-4 shadow">
-						<div class="icon d-flex align-items-center justify-content-center">
-							<span class="icon-globe"></span>
-						</div>
-						<div>
-							<h3 class="mb-4">Website</h3>
-							<p><a href="https://pk.linkedin.com/in/fawadss1">Fawad LinkedIn</a></p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-
-	<footer class="ftco-footer ftco-section">
-		<div class="container">
-			<div class="row mb-5">
-				<div class="col-md">
-					<div class="ftco-footer-widget mb-4">
-						<h2 class="ftco-heading-2">About</h2>
-						<p>A passionate Software Engineer with some Python & Backend Skills. I am hard-working person
-							who loves to write clean and scalable code. </p>
-					</div>
-				</div>
-				<div class="col-md">
-					<div class="ftco-footer-widget mb-4">
-						<h2 class="ftco-heading-2">Social Media</h2>
-						<ul class="ftco-footer-social list-unstyled">
-							<li class="ftco-animate"><a href="https://pk.linkedin.com/in/fawadss1"
-									target="__blank"><span class="icon-linkedin"></span></a></li>
-							<li class="ftco-animate"><a href="https://github.com/fawadss1/" target="__blank"><span
-										class="icon-github"></span></a></li>
-							<li class="ftco-animate"><a href="https://fb.com/fawadss1/" target="__blank"><span
-										class="icon-facebook"></span></a></li>
-							<li class="ftco-animate"><a href="https://instagram.com/fawadss1/" target="__blank"><span
-										class="icon-instagram"></span></a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-md">
-					<div class="ftco-footer-widget mb-4">
-						<h2 class="ftco-heading-2">Have a Questions?</h2>
-						<div class="block-23 mb-3">
-							<ul>
-								<li><span class="icon icon-map-marker"></span><span class="text">Kabal Swat KPK
-										Pak</span></li>
-								<li class="mt-3"><a href="tel://+923418357982"><span
-											class="icon icon-phone"></span><span class="text">+92-341-8357982</span></a>
-								</li>
-								<li><a href="mailto:fawadstar6@gmail.com"><span class="icon icon-envelope"></span><span
-											class="text">fawadstar6@gmail.com</span></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12 text-center">
-					&copy;
-					<script>document.write(new Date().getFullYear());</script> All Rights Reserved Designed By <a
-						href="https://pk.linkedin.com/in/fawadss1" target="_blank" style="color: red;">Fawad</a>.
-					</p>
-				</div>
-			</div>
-		</div>
-	</footer>
-
-	<div id="ftco-loader" class="show fullscreen">
-		<svg class="circular" width="48px" height="48px">
-			<circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
-			<circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
-				stroke="#F96D00" />
-		</svg>
-	</div>
-
-
-	<script src="js/jquery.min.js"></script>
-	<script src="js/jquery-migrate-3.0.1.min.js"></script>
-	<script src="js/popper.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/jquery.easing.1.3.js"></script>
-	<script src="js/jquery.waypoints.min.js"></script>
-	<script src="js/jquery.stellar.min.js"></script>
-	<script src="js/owl.carousel.min.js"></script>
-	<script src="js/jquery.magnific-popup.min.js"></script>
-	<script src="js/aos.js"></script>
-	<script src="js/jquery.animateNumber.min.js"></script>
-	<script src="js/scrollax.min.js"></script>
-	<script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
 </body>
-
 </html>
